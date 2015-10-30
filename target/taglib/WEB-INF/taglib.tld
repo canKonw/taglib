@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>app</short-name>
+    <uri>http://com.hh/taglib</uri><!--???????-->
+    <display-name>My Tags</display-name>
+    <tag>
+        <name>myTaglib</name>
+        <tag-class>com.hh.MyTaglib</tag-class>
+        <attribute>
+            <name>name</name>
+            <required>true</required><!--??????-->
+            <rtexprvalue>true</rtexprvalue><!--??true?? ???????????????????????????????false?????????,???????el???-->
+        </attribute>
+        <attribute>
+            <name>age</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

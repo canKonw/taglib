@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="taglib:war exploded">
+    <output-path>$PROJECT_DIR$/target/taglib</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="taglib/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="taglib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
